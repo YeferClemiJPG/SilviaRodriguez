@@ -1,0 +1,29 @@
+{
+  "project": "Simple Icons",
+  "version": "16.32.0",
+  "license": "CC0-1.0",
+  "repository": "https://github.com/simple-icons/simple-icons",
+  "license_url": "https://github.com/simple-icons/simple-icons/blob/16.32.0/LICENSE.md",
+  "package_url": "https://github.com/simple-icons/simple-icons/blob/16.32.0/package.json",
+  "asset_notes": "SVG paths preserved exactly. Adaptation only sets currentColor and decorative accessibility attributes. No dependency installation required.",
+  "icons": [
+    {
+      "name": "whatsapp",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/16.32.0/icons/whatsapp.svg",
+      "upstream_sha256": "8fb209a53a61618c3483594b3e070481a35575d6aaecbe00a6fe386670c8fb1c",
+      "adapted_sha256": "3d270eb7cb1421b3ef2777e5cabca16bf0d364c5f8000e69f9436f83d4a1dd38",
+      "viewBox": "0 0 24 24",
+      "path_preserved": true,
+      "visual_inspection": "Recognizable original mark in gold on dark green; no clipping."
+    },
+    {
+      "name": "instagram",
+      "source_url": "https://raw.githubusercontent.com/simple-icons/simple-icons/16.32.0/icons/instagram.svg",
+      "upstream_sha256": "f53af2d1fc5292ba1433b5c1faf50005ce6a997fa302d1816989929f379a59dc",
+      "adapted_sha256": "22c27d9db7a2dd0c7c3bbc0acc5432d44879875f737bdf5bd905e4b1a3dddde9",
+      "viewBox": "0 0 24 24",
+      "path_preserved": true,
+      "visual_inspection": "Recognizable original mark in gold on dark green; no clipping."
+    }
+  ]
+}

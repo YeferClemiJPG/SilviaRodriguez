@@ -1,0 +1,48 @@
+:root {
+  --canvas: #f6f5f1;
+  --surface: #ffffff;
+  --surface-soft: #eeefec;
+  --ink: #1a2744;
+  --muted: #53627b;
+  --line: #1a274424;
+  --accent: #856838;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --motion-fast: 180ms;
+  --motion-base: 280ms;
+  --motion-slow: 600ms;
+  --radius-control: 10px;
+  --radius-panel: 22px;
+  --navy: #1a2744;
+  --navy-soft: #28324f;
+  --medium: #2a4070;
+  --blue-light: #6888b8;
+  --gold: #a89065;
+  --gold-clemi: #b8952a;
+  --gold-light: #d4b050;
+  --gold-dark: #977a4e;
+  --gold-shadow: #594c31;
+  --green: #344536;
+  --green-secondary: #425845;
+  --green-shadow: #303d2e;
+  --green-support: #546a52;
+  --green-clemi: #2d5a3a;
+  --warm: #f0ece4;
+  --cream: #f4efe4;
+  --neutral: #d4d1ca;
+  --space-0: 0px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-13: 13px;
+  --space-16: 16px;
+  --space-18: 18px;
+  --space-22: 22px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-34: 34px;
+  --space-44: 44px;
+  --font-display:
+    "Times New Roman", Times, Georgia, "Cormorant Garamond", serif;
+  --font-body: "Times New Roman", Times, Georgia, "Cormorant Garamond", serif;
+}

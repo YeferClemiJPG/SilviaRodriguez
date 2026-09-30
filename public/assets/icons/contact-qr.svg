@@ -1,0 +1,31 @@
+<svg
+  class="contact-glyph contact-glyph-qr"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  aria-hidden="true"
+  focusable="false"
+>
+  <path d="M9 18 35 5 57 19 54 45 29 59 7 44Z" fill="#F0ECE4" />
+  <path d="M35 5 57 19 34 32 9 18Z" fill="#F4EFE4" />
+  <path d="m34 32 20 13-25 14-22-15Z" fill="#A89065" fill-opacity=".12" />
+  <g stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m17 15 31-5 5 39-33 6-4-4Z" fill="#A89065" stroke="#856838" />
+    <path d="m13 12 32-5 5 39-33 6Z" fill="#F4EFE4" stroke="#1A2744" />
+    <path
+      d="m18 17 9-1 1 9-9 1Zm17-2 8-1 1 9-8 1Zm-14 20 9-1 1 9-9 1Z"
+      stroke="#1A2744"
+    />
+    <path
+      d="m21 20 3-.3.3 3-3 .3Zm17-2 2.5-.3.3 3-2.5.3Zm-14 20 3-.3.3 3-3 .3Z"
+      fill="#A89065"
+      stroke="#A89065"
+    />
+    <path
+      d="m20 30 5-.6m6-13 1 6m-4 7 8-1m-3-2 .6 4m6-3 6-.7m-9 7 .5 5 5-.6m-7 5 7-.8m-1-8 4-.4.6 6m-13-2-2 .3"
+      stroke="#1A2744"
+    />
+    <path d="M6 22v-9l6-1m40 20 2 18-9 2" stroke="#856838" />
+    <path d="m18 56 12-2m18-43 4 34" stroke="#A89065" />
+  </g>
+</svg>

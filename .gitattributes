@@ -1,0 +1,3 @@
+# Preserve the official Illustrator source and vCard CRLF bytes on all platforms.
+*.ai binary
+*.vcf -text

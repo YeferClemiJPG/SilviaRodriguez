@@ -1,0 +1,80 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="240"
+  height="38"
+  viewBox="0 0 240 38"
+  fill="none"
+>
+  <defs>
+    <linearGradient
+      id="satin"
+      x1="24"
+      y1="9"
+      x2="224"
+      y2="33"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#bca67c" stop-opacity="0" />
+      <stop offset=".23" stop-color="#9d7b40" />
+      <stop offset=".44" stop-color="#f2e6cb" />
+      <stop offset=".53" stop-color="#95713a" />
+      <stop offset=".7" stop-color="#e3c992" />
+      <stop offset="1" stop-color="#9b7d48" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient
+      id="fold"
+      x1="126"
+      y1="5"
+      x2="129"
+      y2="34"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop stop-color="#eee0bf" />
+      <stop offset=".32" stop-color="#bd9b5d" />
+      <stop offset=".48" stop-color="#6c532e" />
+      <stop offset=".61" stop-color="#dfc48d" />
+      <stop offset="1" stop-color="#9e804d" />
+    </linearGradient>
+    <linearGradient id="hairline">
+      <stop stop-color="#ac8c54" stop-opacity="0" />
+      <stop offset=".5" stop-color="#b39766" />
+      <stop offset="1" stop-color="#ac8c54" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M5 29C55 31 77 26 114 13C148 1 177 10 232 21"
+    stroke="url(#hairline)"
+    stroke-width=".75"
+  />
+  <path
+    d="M17 29C72 29 87 22 122 13C151 5 167 15 194 22C169 18 154 12 127 18C86 27 55 34 17 29Z"
+    fill="url(#satin)"
+  />
+  <path
+    d="M101 23C115 19 133 7 146 8C151 9 151 12 147 17C138 29 125 30 110 27C123 27 134 23 140 17C145 12 143 10 138 12C122 17 116 22 101 23Z"
+    fill="url(#fold)"
+  />
+  <path
+    d="M105 24C121 20 133 11 142 10"
+    stroke="#fff8e9"
+    stroke-opacity=".88"
+    stroke-width=".65"
+  />
+  <path
+    d="M112 27C127 32 141 26 148 17"
+    stroke="#735b34"
+    stroke-opacity=".45"
+    stroke-width=".55"
+  />
+  <path
+    d="M129 19C155 13 165 25 181 26C204 29 217 26 235 26C207 32 185 31 168 26C150 20 144 18 129 19Z"
+    fill="url(#satin)"
+  />
+  <path
+    d="M151 19C169 23 177 29 202 28"
+    stroke="#fff8e9"
+    stroke-opacity=".9"
+    stroke-width=".65"
+  />
+  <path d="M1 34H100M152 34H236" stroke="url(#hairline)" stroke-width=".6" />
+</svg>

@@ -1,0 +1,97 @@
+/* Editable photographic placeholders; no stock identity is assigned. */
+.template-notice {
+  width: min(1200px, calc(100% - 40px));
+  margin: 16px auto 0;
+  color: var(--muted);
+  font-size: 0.875rem;
+  text-align: center;
+}
+.template-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--muted);
+  background: radial-gradient(ellipse at 40% 28%, #fffdf8, #e2e8eb 70%);
+  border: 1px solid #fff;
+}
+.template-initials {
+  color: #ac9670;
+  font-size: clamp(7rem, 15vw, 13rem);
+  line-height: 1.15;
+  letter-spacing: -0.05em;
+}
+.template-photo small,
+.template-banner-photo small,
+.template-instagram small {
+  font-size: 0.875rem;
+  letter-spacing: 0.03em;
+}
+.template-banner-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 46%;
+  min-height: 520px;
+  color: #d6bd8f;
+  background: radial-gradient(ellipse, #42545470, transparent 70%);
+}
+.template-banner-photo > span {
+  font-size: clamp(6rem, 12vw, 10rem);
+  line-height: 1.4;
+  opacity: 0.6;
+}
+.template-instagram {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(145deg, #fbfaf5, #e4e8e6);
+  color: var(--accent);
+}
+.template-instagram > span {
+  font-size: 5rem;
+}
+[aria-disabled="true"] {
+  cursor: default;
+}
+.contact-card[aria-disabled="true"] .contact-card-title::after {
+  content: "Por configurar";
+  width: auto;
+  height: auto;
+  background: none;
+  white-space: nowrap;
+  opacity: 1;
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.contact-email [aria-disabled="true"] {
+  width: 100%;
+  justify-content: center;
+}
+.biography-honorific:empty {
+  display: none;
+}
+@media (max-width: 900px) {
+  .template-banner-photo {
+    width: 100%;
+    min-height: 320px;
+    height: 100%;
+  }
+}
+@media (max-width: 520px) {
+  .template-initials {
+    font-size: 8rem;
+  }
+  .template-notice {
+    font-size: 0.75rem;
+  }
+}

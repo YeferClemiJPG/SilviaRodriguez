@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F6F5F1" />
+    <meta name="description" content="{{description}}" />
+    <meta name="robots" content="{{robots}}" />
+    {{canonical}}
+    <title>{{fullName}} · CLEMI</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/liquid-glass.css" />
+    <link rel="stylesheet" href="/src/editorial-banner.css" />
+    <link rel="stylesheet" href="/src/template-theme.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body class="{{portraitClass}}">
+    <a class="skip-link" href="#contacto">Ir al contacto</a>
+
+    <header class="site-header">
+      <div class="header-inner shell">
+        <a class="brand" href="#perfil" aria-label="CLEMI · {{fullName}}"
+          >{{brand}}</a
+        >
+        <nav aria-label="Navegación principal">
+          <a href="#perfil">Perfil</a>
+          <a href="#trayectoria">Trayectoria</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      {{templateNotice}}
+      <section class="hero shell" id="perfil" aria-labelledby="profile-name">
+        <div class="hero-copy">
+          <h1 class="hero-name" id="profile-name">
+            <span class="title-mask"
+              ><span
+                class="reveal"
+                data-reveal-type="title"
+                data-reveal-delay="90"
+                >{{givenName}}</span
+              ></span
+            >
+            <span class="title-mask"
+              ><span
+                class="name-accent reveal"
+                data-reveal-type="title"
+                data-reveal-delay="200"
+                >{{familyName}}</span
+              ></span
+            >
+          </h1>
+          <div class="roles reveal" data-reveal-delay="280">
+            <p>{{role1}}</p>
+          </div>
+        </div>
+        <div
+          class="hero-visual reveal"
+          data-reveal-type="portrait"
+          data-reveal-delay="120"
+        >
+          {{portrait}}
+          <img
+            class="hero-study reveal"
+            data-reveal-type="panel"
+            data-reveal-delay="360"
+            src="./{{scienceIllustration}}"
+            alt=""
+            width="1536"
+            height="1024"
+          />
+        </div>
+      </section>
+      <section
+        class="biography biography-banner shell"
+        id="trayectoria"
+        aria-labelledby="biography-title"
+      >
+        <div class="biography-art">{{bannerArtwork}}</div>
+        <div class="biography-copy">
+          <h2 class="section-label section-heading" id="biography-title">
+            <span class="title-mask"
+              ><span class="reveal" data-reveal-type="title"
+                >Trayectoria</span
+              ></span
+            >
+          </h2>
+          <h3 class="biography-name reveal" data-reveal-type="title">
+            <span class="biography-honorific">{{honorific}}</span>
+            {{givenName}} <em>{{familyName}}</em>
+          </h3>
+          <p class="biography-specialty reveal">{{editorialSpecialty}}</p>
+          <p class="biography-text reveal">{{biography}}</p>
+        </div>
+      </section>
+      <section
+        class="contact-section shell"
+        id="contacto"
+        aria-labelledby="contact-title"
+      >
+        <img
+          class="contact-waves"
+          src="./{{contactWaves}}"
+          alt=""
+          width="1672"
+          height="941"
+          loading="lazy"
+        />
+        <h2 class="section-label section-heading" id="contact-title">
+          <span class="title-mask"
+            ><span class="reveal" data-reveal-type="title">Contacto</span></span
+          >
+        </h2>
+        <div class="contact-grid focus-group" data-focus-group>
+          <a
+            class="contact-card contact-save focus-card reveal"
+            data-interactive-surface
+            data-focus-card
+            data-reveal-type="panel"
+            {{saveAttributes}}
+          >
+            <img
+              class="contact-art contact-art-save"
+              src="./assets/contact-save-sculpture.png"
+              alt=""
+              width="1254"
+              height="1254"
+              loading="lazy"
+            /><span class="contact-card-title">Guardar contacto</span>
+          </a>
+
+          <a
+            class="contact-card contact-whatsapp focus-card reveal"
+            data-interactive-surface
+            data-focus-card
+            data-reveal-type="panel"
+            data-reveal-delay="60"
+            {{whatsappAttributes}}
+          >
+            <span class="contact-art-wrap contact-art-chat" aria-hidden="true"
+              ><img
+                class="contact-art"
+                src="./assets/contact-whatsapp-sculpture-v2.png"
+                alt=""
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span class="contact-brand-mark">{{whatsappIcon}}</span></span
+            ><span class="contact-card-title">WhatsApp</span>
+          </a>
+          <div
+            class="contact-card contact-email focus-card reveal"
+            data-interactive-surface
+            data-focus-card
+            data-reveal-type="panel"
+            data-reveal-delay="120"
+          >
+            <a class="contact-email-link" {{emailAttributes}}
+              ><img
+                class="contact-art contact-art-mail"
+                src="./assets/contact-mail-sculpture.png"
+                alt=""
+                width="1254"
+                height="1254"
+                loading="lazy"
+              /><span
+                ><span class="contact-card-title">Correo</span
+                ><span class="contact-detail email-value"
+                  >{{emailDisplay}}</span
+                ></span
+              ></a
+            >
+          </div>
+          <a
+            class="contact-card contact-phone focus-card reveal"
+            data-interactive-surface
+            data-focus-card
+            data-reveal-type="panel"
+            data-reveal-delay="180"
+            {{phoneAttributes}}
+          >
+            <img
+              class="contact-art contact-art-phone"
+              src="./assets/contact-phone-sculpture-v2.png"
+              alt=""
+              width="1254"
+              height="1254"
+              loading="lazy"
+            /><span class="contact-card-title">Llamar</span>
+          </a>
+        </div>
+      </section>
+      <section
+        class="connections shell"
+        id="conexiones"
+        aria-labelledby="connections-title"
+      >
+        <h2 class="section-label section-heading" id="connections-title">
+          <span class="title-mask"
+            ><span class="reveal" data-reveal-type="title"
+              >Conexiones</span
+            ></span
+          >
+        </h2>
+        <div class="connection-grid focus-group" data-focus-group>
+          <a
+            id="portafolio"
+            class="connection-tile connection-portfolio focus-card reveal"
+            data-focus-card
+            data-reveal-type="panel"
+            href="{{portfolio}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-interactive-surface
+          >
+            <img
+              class="portfolio-image"
+              src="./{{portfolioIllustration}}"
+              alt=""
+              width="1254"
+              height="1254"
+              loading="lazy"
+            />
+            <div class="tile-content"><h3>Portafolio CLEMI</h3></div>
+          </a>
+          <a
+            class="connection-tile connection-personal focus-card reveal"
+            data-focus-card
+            data-reveal-type="panel"
+            data-reveal-delay="80"
+            {{instagramAttributes}}
+            aria-label="Instagram personal de {{fullName}}"
+            data-interactive-surface
+          >
+            <div class="instagram-profile">{{instagramPortrait}}</div>
+            <span class="app-mark">{{instagramIcon}}</span>
+            <div class="tile-content"><h3>Instagram</h3></div>
+          </a>
+          <a
+            class="connection-tile connection-foundation focus-card reveal"
+            data-focus-card
+            data-reveal-type="panel"
+            data-reveal-delay="160"
+            href="{{instagramInstitutionalUrl}}"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram de Fundación CLEMI"
+            data-interactive-surface
+          >
+            <div class="foundation-art">
+              <img
+                class="foundation-photo"
+                src="./{{institutionalPhoto}}"
+                alt="Jornada de formación en Fundación CLEMI"
+                width="1280"
+                height="960"
+                loading="lazy"
+              />
+              <div class="foundation-logo" aria-hidden="true">{{cardLogo}}</div>
+            </div>
+            <span class="app-mark">{{instagramIcon}}</span>
+            <div class="tile-content"><h3>Fundación CLEMI</h3></div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer shell">
+      <p class="footer-motto reveal" data-reveal-type="title">{{mottoLines}}</p>
+    </footer>
+    <div
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+    <noscript
+      ><style>
+        .copy-control {
+          display: none !important;
+        }
+      </style></noscript
+    >
+  </body>
+</html>

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dist-preview/
+artifacts/
+.env
+.env.*
+!.env.example
+.sites-runtime/
+*.log
+.DS_Store

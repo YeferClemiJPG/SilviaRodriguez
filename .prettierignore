@@ -1,0 +1,6 @@
+node_modules
+dist
+dist-preview
+artifacts
+package-lock.json
+public/assets/vendor
