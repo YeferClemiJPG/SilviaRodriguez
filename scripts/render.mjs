@@ -144,7 +144,7 @@ Object.assign(values, {
 });
 values.biography = escape(
   profile.biography ??
-    "Aquí irá la presentación profesional y la trayectoria. El contenido se completará más adelante.",
+    "Aquí se presentarán el cargo y la labor que realiza en CLEMI.",
 );
 const pending =
   'role="link" aria-disabled="true" tabindex="0" title="Pendiente de configurar"';
