@@ -8,3 +8,5 @@
 - Fotografías suministradas por el usuario: 16-43-02 en portada a color y 16-43-47 en el banner de Trayectoria, con escala de grises y fundido aplicados en CSS. Conservar los archivos originales y los rostros. Ajustes propios en src/profile-theme.css.
 - index.html y public/contacto.vcf son generados. npm run verify y npm run export:preview antes de publicar.
 - GitHub Pages en main. No afirmar despliegue sin comprobarlo.
+
+- Ilustración de portada personalizada el 7/10/2026: Diseño gráfico: tableta y lápiz en public/assets/silvia-diseno-illustration.png. Mantener el estilo común azul marino, cristal, marfil y oro. No restaurar el pie de Claudia en este perfil. Prompt y procedencia en docs/ILUSTRACION_PERFIL.md.
