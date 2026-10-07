@@ -183,12 +183,16 @@ values.bannerArtwork = profile.biographyBanner
     escape(profile.biographyBanner) +
     '" alt="Retrato de ' +
     escape(fullName) +
-    '" width="1774" height="887" loading="lazy" />'
+    '" width="' +
+    Number(profile.biographyBannerWidth || 1774) +
+    '" height="' +
+    Number(profile.biographyBannerHeight || 887) +
+    '" loading="lazy" />'
   : '<div class="template-banner-photo"><span aria-hidden="true">' +
     escape(profile.initials) +
     "</span><small>Fotografía para el banner</small></div>";
 values.templateNotice = profile.template
-  ? '<p class="template-notice">Plantilla · fotografías y datos por completar</p>'
+  ? '<p class="template-notice">Plantilla · datos por completar</p>'
   : "";
 const template = await readFile(path.join(root, "src/page.html"), "utf8");
 const html = template.replace(/\{\{(\w+)\}\}/g, (_, key) => {

@@ -1,9 +1,10 @@
-# Plantilla CLEMI · Silvia Rodriguez
+# CLEMI · Silvia Rodriguez
 
-- Solicitada como plantilla publicada. Fotos, biografía, email, teléfono e Instagram personal pendientes; no inventar ni copiar datos de otras personas. Cargo: Directora comunicaciones.
+- Perfil personalizado el 7 de octubre de 2026 con datos suministrados por el usuario. Cargo: Directora de Comunicaciones. Email: direccioncomunicaciones@clemi.edu.co. Teléfono confirmado: +573246896990. No usar el número incompleto inicial. Solo Instagram de Fundación CLEMI: sin tarjeta personal ni duplicados.
 - Mantener orden Perfil, Trayectoria, Contacto, Conexiones, iconos, animaciones y fondo azul SCCOT en Contacto.
-- Editar content/profile.json; los valores null representan datos pendientes. El renderizador muestra espacios reservados y desactiva contactos sin datos. template:true mantiene noindex y aviso de plantilla.
-- Al completar información, validar enlaces y cambiar template a false. Portafolio y Fundación CLEMI ya tienen enlaces institucionales.
+- Editar content/profile.json. template:false activa el perfil completo. Guardar contacto descarga la vCard directamente; no abrir QR. Llamar sin número visible.
+- Sin biografía pública verificable encontrada; texto general sobre diseño, comunicación audiovisual y profesionalismo autorizado por el usuario. El informe CLEMI de 2023 respalda el contexto institucional del área, no el historial personal de Silvia. No inventar formación, experiencia ni logros individuales.
 - Logo y fotografías institucionales compartidos; ningún retrato de Alfredo o Claudia.
+- Fotografías suministradas por el usuario: 16-43-02 en portada a color y 16-43-47 en el banner de Trayectoria, con escala de grises y fundido aplicados en CSS. Conservar los archivos originales y los rostros. Ajustes propios en src/profile-theme.css.
 - index.html y public/contacto.vcf son generados. npm run verify y npm run export:preview antes de publicar.
 - GitHub Pages en main. No afirmar despliegue sin comprobarlo.
