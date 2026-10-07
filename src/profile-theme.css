@@ -1,4 +1,4 @@
-/* Preserve the supplied portraits; grayscale and edge blending stay in CSS. */
+/* Preserve the original portrait colors and the existing edge blending. */
 .portrait {
   transform: none;
   object-position: 50% 22%;
@@ -22,7 +22,6 @@
   height: 100%;
   object-fit: cover;
   object-position: 50% 15%;
-  filter: grayscale(1);
   mask-image: linear-gradient(90deg, #000 72%, transparent 100%);
 }
 .biography-banner::before {
