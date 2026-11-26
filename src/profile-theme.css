@@ -31,6 +31,12 @@
   align-self: center;
   padding-left: 18px;
 }
+.biography-banner .biography-text {
+  max-width: 58ch;
+}
+.biography-banner .biography-text + .biography-text {
+  margin-top: 1em;
+}
 .connection-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 960px;

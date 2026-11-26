@@ -142,10 +142,16 @@ Object.assign(values, {
     )
     .join(" "),
 });
-values.biography = escape(
+const biography =
   profile.biography ??
-    "Aquí se presentarán el cargo y la labor que realiza en CLEMI.",
-);
+  "Aquí se presentarán el cargo y la labor que realiza en CLEMI.";
+values.biographyParagraphs = (
+  Array.isArray(biography) ? biography : [biography]
+)
+  .map(
+    (paragraph) => `<p class="biography-text reveal">${escape(paragraph)}</p>`,
+  )
+  .join("\n");
 const pending =
   'role="link" aria-disabled="true" tabindex="0" title="Pendiente de configurar"';
 values.saveAttributes =

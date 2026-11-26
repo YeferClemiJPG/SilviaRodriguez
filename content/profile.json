@@ -2,19 +2,19 @@
   "slug": "silvia-rodriguez",
   "honorific": "",
   "givenName": "Silvia",
-  "familyName": "Rodriguez",
+  "familyName": "Rodríguez",
   "initials": "SR",
   "roles": ["Directora de Comunicaciones"],
   "organization": "CLEMI",
   "specialty": "Directora de Comunicaciones",
   "editorialSpecialty": "Directora de Comunicaciones",
-  "biography": "Diseño gráfico, contenido audiovisual y comunicación institucional al servicio de CLEMI. Desde la Dirección de Comunicaciones, su labor conecta creatividad y claridad para dar visibilidad al entrenamiento médico, la investigación y las actividades de la fundación.",
-  "biographySources": [
-    {
-      "label": "CLEMI · Informe de gestión 2023, Imagen y comunicaciones. Contexto institucional, no biografía personal",
-      "url": "https://new.clemi.edu.co/wp-content/uploads/2024/03/2Informe-gestion-CLEM-2023.pdf"
-    }
+  "biography": [
+    "Profesional en Diseño Gráfico de la Universidad Jorge Tadeo Lozano, Bogotá. Becaria y graduada como Licenciada en Idiomas de la Universitat de Barcelona, España, con homologación profesional en Diseño Digital en el Politécnico Grancolombiano.",
+    "Especializada en Historia del Arte en la Universitat de Barcelona y en Gramática Española en la Escuela de Artes y Letras. Fotógrafa Audiovisual Profesional de la Escuela de Cine y Fotografía Zona Cinco y desarrolladora web con formación en el Google Developer Program, Mountain View, California, Estados Unidos.",
+    "Su perfil multidisciplinario integra comunicación estratégica, diseño gráfico, producción audiovisual, desarrollo web y automatización de sistemas.",
+    "Desde la Dirección de Comunicaciones de CLEMI, lidera la gestión de la identidad institucional, la transformación digital y la proyección de la fundación, conectando creatividad, innovación y tecnología al servicio de la ciencia, el entrenamiento médico y la investigación."
   ],
+  "biographySources": [],
   "email": "direccioncomunicaciones@clemi.edu.co",
   "phone": "+573246896990",
   "phoneDisplay": "+57 324 689 6990",
@@ -25,7 +25,7 @@
   "logoWidth": 156,
   "logoHeight": 170,
   "portrait": "assets/silvia-rodriguez-portada.png",
-  "portraitAlt": "Silvia Rodriguez, Directora de Comunicaciones de CLEMI",
+  "portraitAlt": "Silvia Rodríguez, Directora de Comunicaciones de CLEMI",
   "portraitWidth": 2448,
   "portraitHeight": 3264,
   "instagramPortrait": null,
